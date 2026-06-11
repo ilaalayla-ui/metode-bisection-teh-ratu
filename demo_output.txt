@@ -1,0 +1,17 @@
+METODE BISECTION - KASUS PENJUALAN TEH RATU G. OBOS VI
+Fungsi: f(x) = -2x^2 + 150x - 2500
+Tujuan: mencari x saat f(x) = 0
+
+Selang awal: a = 20, b = 28
+f(a) = -300.000000
+f(b) = 132.000000
+
+Iterasi |      a      |      b      |      c      |     f(c)     |    Error
+------------------------------------------------------------------------------
+   1    |  20.000000  |  28.000000  |  24.000000  |  -52.000000  | 52.000000
+   2    |  24.000000  |  28.000000  |  26.000000  |   48.000000  |  2.000000
+   3    |  24.000000  |  26.000000  |  25.000000  |   0.000000   |  1.000000
+------------------------------------------------------------------------------
+Akar hampiran ditemukan pada iterasi ke-3
+Jumlah penjualan Teh Ratu G. Obos VI pada kondisi impas = 25.000000 gelas
+Nilai error |f(c)| = 0.000000
